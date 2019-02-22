@@ -13,6 +13,81 @@
 		1A7E2F121B93E9AC00B155CB /* o_str.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7E2EC31B93E9A500B155CB /* o_str.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1A7E2FAD1B93EB5700B155CB /* libcrypto.a in Copy Static Libraries */ = {isa = PBXBuildFile; fileRef = 1A7E2E631B93E88100B155CB /* libcrypto.a */; };
 		1A7E2FAE1B93EB5A00B155CB /* libssl.a in Copy Static Libraries */ = {isa = PBXBuildFile; fileRef = 1A7E2E641B93E88100B155CB /* libssl.a */; };
+		EAF9016A2220C3660082AF08 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900DD2220C1020082AF08 /* aes.h */; };
+		EAF9016B2220C3660082AF08 /* asn1_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900FF2220C1050082AF08 /* asn1_mac.h */; };
+		EAF9016C2220C3660082AF08 /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900EE2220C1030082AF08 /* asn1.h */; };
+		EAF9016D2220C3660082AF08 /* asn1t.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900DE2220C1020082AF08 /* asn1t.h */; };
+		EAF9016E2220C3660082AF08 /* bio.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900D62220C1020082AF08 /* bio.h */; };
+		EAF9016F2220C3660082AF08 /* blowfish.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901162220C1070082AF08 /* blowfish.h */; };
+		EAF901702220C3660082AF08 /* bn.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900E42220C1030082AF08 /* bn.h */; };
+		EAF901712220C3660082AF08 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900D52220C1020082AF08 /* buffer.h */; };
+		EAF901722220C3660082AF08 /* camellia.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900F22220C1030082AF08 /* camellia.h */; };
+		EAF901732220C3660082AF08 /* cast.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900FA2220C1040082AF08 /* cast.h */; };
+		EAF901742220C3660082AF08 /* cmac.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900E02220C1020082AF08 /* cmac.h */; };
+		EAF901752220C3660082AF08 /* cms.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900FC2220C1040082AF08 /* cms.h */; };
+		EAF901762220C3660082AF08 /* comp.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900F02220C1030082AF08 /* comp.h */; };
+		EAF901772220C3660082AF08 /* conf_api.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901012220C1050082AF08 /* conf_api.h */; };
+		EAF901782220C3660082AF08 /* conf.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF9010E2220C1060082AF08 /* conf.h */; };
+		EAF901792220C3660082AF08 /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901072220C1050082AF08 /* crypto.h */; };
+		EAF9017A2220C3660082AF08 /* des_old.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900D72220C1020082AF08 /* des_old.h */; };
+		EAF9017B2220C3660082AF08 /* des.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901172220C1070082AF08 /* des.h */; };
+		EAF9017C2220C3660082AF08 /* dh.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900E32220C1020082AF08 /* dh.h */; };
+		EAF9017D2220C3660082AF08 /* dsa.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900DA2220C1020082AF08 /* dsa.h */; };
+		EAF9017E2220C3660082AF08 /* dso.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900F32220C1040082AF08 /* dso.h */; };
+		EAF9017F2220C3660082AF08 /* dtls1.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900E22220C1020082AF08 /* dtls1.h */; };
+		EAF901802220C3660082AF08 /* e_os2.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900EC2220C1030082AF08 /* e_os2.h */; };
+		EAF901812220C3660082AF08 /* ebcdic.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900E92220C1030082AF08 /* ebcdic.h */; };
+		EAF901822220C3660082AF08 /* ec.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF9010A2220C1060082AF08 /* ec.h */; };
+		EAF901832220C3660082AF08 /* ecdh.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901192220C1070082AF08 /* ecdh.h */; };
+		EAF901842220C3660082AF08 /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901052220C1050082AF08 /* ecdsa.h */; };
+		EAF901852220C3660082AF08 /* engine.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF9010B2220C1060082AF08 /* engine.h */; };
+		EAF901862220C3660082AF08 /* err.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF9010F2220C1060082AF08 /* err.h */; };
+		EAF901872220C3660082AF08 /* evp.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900D42220C1020082AF08 /* evp.h */; };
+		EAF901882220C3660082AF08 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901022220C1050082AF08 /* hmac.h */; };
+		EAF901892220C3660082AF08 /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901152220C1070082AF08 /* idea.h */; };
+		EAF9018A2220C3660082AF08 /* krb5_asn.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901182220C1070082AF08 /* krb5_asn.h */; };
+		EAF9018B2220C3660082AF08 /* kssl.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900F42220C1040082AF08 /* kssl.h */; };
+		EAF9018C2220C3660082AF08 /* lhash.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901062220C1050082AF08 /* lhash.h */; };
+		EAF9018D2220C3660082AF08 /* md4.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF9011E2220C1080082AF08 /* md4.h */; };
+		EAF9018E2220C3660082AF08 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900E82220C1030082AF08 /* md5.h */; };
+		EAF9018F2220C3660082AF08 /* mdc2.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900D92220C1020082AF08 /* mdc2.h */; };
+		EAF901902220C3660082AF08 /* modes.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901032220C1050082AF08 /* modes.h */; };
+		EAF901912220C3660082AF08 /* obj_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901042220C1050082AF08 /* obj_mac.h */; };
+		EAF901922220C3660082AF08 /* objects.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF9011C2220C1070082AF08 /* objects.h */; };
+		EAF901932220C3660082AF08 /* ocsp.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901122220C1060082AF08 /* ocsp.h */; };
+		EAF901942220C3660082AF08 /* opensslconf.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900E12220C1020082AF08 /* opensslconf.h */; };
+		EAF901952220C3660082AF08 /* opensslv.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900EA2220C1030082AF08 /* opensslv.h */; };
+		EAF901962220C3660082AF08 /* ossl_typ.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900E52220C1030082AF08 /* ossl_typ.h */; };
+		EAF901972220C3660082AF08 /* pem.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900F12220C1030082AF08 /* pem.h */; };
+		EAF901982220C3660082AF08 /* pem2.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901002220C1050082AF08 /* pem2.h */; };
+		EAF901992220C3660082AF08 /* pkcs7.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900F72220C1040082AF08 /* pkcs7.h */; };
+		EAF9019A2220C3660082AF08 /* pkcs12.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900F82220C1040082AF08 /* pkcs12.h */; };
+		EAF9019B2220C3660082AF08 /* pqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF9011A2220C1070082AF08 /* pqueue.h */; };
+		EAF9019C2220C3660082AF08 /* rand.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900DC2220C1020082AF08 /* rand.h */; };
+		EAF9019D2220C3660082AF08 /* rc2.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900EF2220C1030082AF08 /* rc2.h */; };
+		EAF9019E2220C3660082AF08 /* rc4.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900FD2220C1050082AF08 /* rc4.h */; };
+		EAF9019F2220C3660082AF08 /* ripemd.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900F62220C1040082AF08 /* ripemd.h */; };
+		EAF901A02220C3660082AF08 /* rsa.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF9011D2220C1070082AF08 /* rsa.h */; };
+		EAF901A12220C3660082AF08 /* safestack.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900FB2220C1040082AF08 /* safestack.h */; };
+		EAF901A22220C3660082AF08 /* seed.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900ED2220C1030082AF08 /* seed.h */; };
+		EAF901A32220C3660082AF08 /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901112220C1060082AF08 /* sha.h */; };
+		EAF901A42220C3660082AF08 /* srp.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901132220C1060082AF08 /* srp.h */; };
+		EAF901A52220C3660082AF08 /* srtp.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901082220C1050082AF08 /* srtp.h */; };
+		EAF901A62220C3660082AF08 /* ssl.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900EB2220C1030082AF08 /* ssl.h */; };
+		EAF901A72220C3660082AF08 /* ssl2.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900F92220C1040082AF08 /* ssl2.h */; };
+		EAF901A82220C3660082AF08 /* ssl3.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900E62220C1030082AF08 /* ssl3.h */; };
+		EAF901A92220C3660082AF08 /* ssl23.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900D82220C1020082AF08 /* ssl23.h */; };
+		EAF901AA2220C3660082AF08 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF9010C2220C1060082AF08 /* stack.h */; };
+		EAF901AB2220C3660082AF08 /* symhacks.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900FE2220C1050082AF08 /* symhacks.h */; };
+		EAF901AC2220C3660082AF08 /* tls1.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901102220C1060082AF08 /* tls1.h */; };
+		EAF901AD2220C3660082AF08 /* ts.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900F52220C1040082AF08 /* ts.h */; };
+		EAF901AE2220C3660082AF08 /* txt_db.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900E72220C1030082AF08 /* txt_db.h */; };
+		EAF901AF2220C3660082AF08 /* ui_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901142220C1070082AF08 /* ui_compat.h */; };
+		EAF901B02220C3660082AF08 /* ui.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900DB2220C1020082AF08 /* ui.h */; };
+		EAF901B12220C3660082AF08 /* whrlpool.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF900DF2220C1020082AF08 /* whrlpool.h */; };
+		EAF901B22220C3660082AF08 /* x509_vfy.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF9011B2220C1070082AF08 /* x509_vfy.h */; };
+		EAF901B32220C3660082AF08 /* x509.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF901092220C1060082AF08 /* x509.h */; };
+		EAF901B42220C3660082AF08 /* x509v3.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF9010D2220C1060082AF08 /* x509v3.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -296,10 +371,85 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF901B32220C3660082AF08 /* x509.h in Headers */,
+				EAF901902220C3660082AF08 /* modes.h in Headers */,
+				EAF901972220C3660082AF08 /* pem.h in Headers */,
+				EAF9018E2220C3660082AF08 /* md5.h in Headers */,
+				EAF901862220C3660082AF08 /* err.h in Headers */,
+				EAF901832220C3660082AF08 /* ecdh.h in Headers */,
+				EAF901812220C3660082AF08 /* ebcdic.h in Headers */,
+				EAF901AA2220C3660082AF08 /* stack.h in Headers */,
+				EAF901932220C3660082AF08 /* ocsp.h in Headers */,
+				EAF901702220C3660082AF08 /* bn.h in Headers */,
+				EAF901A02220C3660082AF08 /* rsa.h in Headers */,
+				EAF9016E2220C3660082AF08 /* bio.h in Headers */,
+				EAF901A12220C3660082AF08 /* safestack.h in Headers */,
 				1A7E2F121B93E9AC00B155CB /* o_str.h in Headers */,
+				EAF901AC2220C3660082AF08 /* tls1.h in Headers */,
+				EAF9017D2220C3660082AF08 /* dsa.h in Headers */,
+				EAF901822220C3660082AF08 /* ec.h in Headers */,
+				EAF901722220C3660082AF08 /* camellia.h in Headers */,
+				EAF9017E2220C3660082AF08 /* dso.h in Headers */,
+				EAF901AB2220C3660082AF08 /* symhacks.h in Headers */,
+				EAF901802220C3660082AF08 /* e_os2.h in Headers */,
+				EAF901962220C3660082AF08 /* ossl_typ.h in Headers */,
+				EAF901A72220C3660082AF08 /* ssl2.h in Headers */,
+				EAF9018B2220C3660082AF08 /* kssl.h in Headers */,
+				EAF901892220C3660082AF08 /* idea.h in Headers */,
+				EAF901982220C3660082AF08 /* pem2.h in Headers */,
+				EAF9016C2220C3660082AF08 /* asn1.h in Headers */,
+				EAF901872220C3660082AF08 /* evp.h in Headers */,
+				EAF901742220C3660082AF08 /* cmac.h in Headers */,
+				EAF901732220C3660082AF08 /* cast.h in Headers */,
+				EAF901B42220C3660082AF08 /* x509v3.h in Headers */,
 				1A7E2F111B93E9AC00B155CB /* o_dir.h in Headers */,
+				EAF901942220C3660082AF08 /* opensslconf.h in Headers */,
+				EAF901AE2220C3660082AF08 /* txt_db.h in Headers */,
+				EAF9019C2220C3660082AF08 /* rand.h in Headers */,
+				EAF9019B2220C3660082AF08 /* pqueue.h in Headers */,
+				EAF901762220C3660082AF08 /* comp.h in Headers */,
+				EAF901782220C3660082AF08 /* conf.h in Headers */,
+				EAF901772220C3660082AF08 /* conf_api.h in Headers */,
+				EAF9017F2220C3660082AF08 /* dtls1.h in Headers */,
+				EAF901952220C3660082AF08 /* opensslv.h in Headers */,
+				EAF9017B2220C3660082AF08 /* des.h in Headers */,
+				EAF9019F2220C3660082AF08 /* ripemd.h in Headers */,
+				EAF9016F2220C3660082AF08 /* blowfish.h in Headers */,
+				EAF901A52220C3660082AF08 /* srtp.h in Headers */,
+				EAF9019D2220C3660082AF08 /* rc2.h in Headers */,
+				EAF9018D2220C3660082AF08 /* md4.h in Headers */,
+				EAF901852220C3660082AF08 /* engine.h in Headers */,
+				EAF901B22220C3660082AF08 /* x509_vfy.h in Headers */,
 				1A7E2F0F1B93E9AC00B155CB /* constant_time_locl.h in Headers */,
+				EAF9018A2220C3660082AF08 /* krb5_asn.h in Headers */,
+				EAF9017C2220C3660082AF08 /* dh.h in Headers */,
+				EAF901A62220C3660082AF08 /* ssl.h in Headers */,
+				EAF901AF2220C3660082AF08 /* ui_compat.h in Headers */,
+				EAF901882220C3660082AF08 /* hmac.h in Headers */,
+				EAF9019A2220C3660082AF08 /* pkcs12.h in Headers */,
+				EAF901A22220C3660082AF08 /* seed.h in Headers */,
+				EAF901842220C3660082AF08 /* ecdsa.h in Headers */,
+				EAF901A32220C3660082AF08 /* sha.h in Headers */,
+				EAF9016D2220C3660082AF08 /* asn1t.h in Headers */,
+				EAF901922220C3660082AF08 /* objects.h in Headers */,
+				EAF901712220C3660082AF08 /* buffer.h in Headers */,
+				EAF901AD2220C3660082AF08 /* ts.h in Headers */,
+				EAF9016A2220C3660082AF08 /* aes.h in Headers */,
+				EAF9018C2220C3660082AF08 /* lhash.h in Headers */,
+				EAF901A92220C3660082AF08 /* ssl23.h in Headers */,
+				EAF9019E2220C3660082AF08 /* rc4.h in Headers */,
+				EAF901A42220C3660082AF08 /* srp.h in Headers */,
+				EAF9018F2220C3660082AF08 /* mdc2.h in Headers */,
+				EAF9017A2220C3660082AF08 /* des_old.h in Headers */,
 				1A7E2F101B93E9AC00B155CB /* numbers.h in Headers */,
+				EAF901752220C3660082AF08 /* cms.h in Headers */,
+				EAF901A82220C3660082AF08 /* ssl3.h in Headers */,
+				EAF9016B2220C3660082AF08 /* asn1_mac.h in Headers */,
+				EAF901B12220C3660082AF08 /* whrlpool.h in Headers */,
+				EAF901992220C3660082AF08 /* pkcs7.h in Headers */,
+				EAF901912220C3660082AF08 /* obj_mac.h in Headers */,
+				EAF901792220C3660082AF08 /* crypto.h in Headers */,
+				EAF901B02220C3660082AF08 /* ui.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
