@@ -247,7 +247,6 @@
 		EAF902162220C5720082AF08 /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
 		EAF902172220C5720082AF08 /* ocsperr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsperr.h; sourceTree = "<group>"; };
 		EAF902182220C5730082AF08 /* x509err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509err.h; sourceTree = "<group>"; };
-		EAF902192220C5730082AF08 /* opensslconf.h.orig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = opensslconf.h.orig; sourceTree = "<group>"; };
 		EAF9021A2220C5730082AF08 /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
 		EAF9021B2220C5730082AF08 /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
 		EAF9021C2220C5730082AF08 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
@@ -389,7 +388,6 @@
 				EAF901F32220C56C0082AF08 /* ocsp.h */,
 				EAF902172220C5720082AF08 /* ocsperr.h */,
 				EAF901D12220C5660082AF08 /* opensslconf.h */,
-				EAF902192220C5730082AF08 /* opensslconf.h.orig */,
 				EAF901ED2220C56B0082AF08 /* opensslv.h */,
 				EAF902032220C56F0082AF08 /* ossl_typ.h */,
 				EAF901D62220C5670082AF08 /* pem.h */,
